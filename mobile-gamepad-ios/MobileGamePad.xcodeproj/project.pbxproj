@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12447571B39699F00BE0FBD /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = B124473A1B39699F00BE0FBD /* F53OSCBundle.m */; };
+		B12447581B39699F00BE0FBD /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B124473C1B39699F00BE0FBD /* F53OSCClient.m */; };
+		B12447591B39699F00BE0FBD /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B124473F1B39699F00BE0FBD /* F53OSCMessage.m */; };
+		B124475A1B39699F00BE0FBD /* F53OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447411B39699F00BE0FBD /* F53OSCPacket.m */; };
+		B124475B1B39699F00BE0FBD /* F53OSCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447431B39699F00BE0FBD /* F53OSCParser.m */; };
+		B124475C1B39699F00BE0FBD /* F53OSCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447461B39699F00BE0FBD /* F53OSCServer.m */; };
+		B124475D1B39699F00BE0FBD /* F53OSCSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447481B39699F00BE0FBD /* F53OSCSocket.m */; };
+		B124475E1B39699F00BE0FBD /* F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B124474A1B39699F00BE0FBD /* F53OSCTimeTag.m */; };
+		B124475F1B39699F00BE0FBD /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B124474C1B39699F00BE0FBD /* GCDAsyncSocket.m */; };
+		B12447601B39699F00BE0FBD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B124474E1B39699F00BE0FBD /* GCDAsyncUdpSocket.m */; };
+		B12447611B39699F00BE0FBD /* NSData+F53OSCBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447501B39699F00BE0FBD /* NSData+F53OSCBlob.m */; };
+		B12447621B39699F00BE0FBD /* NSDate+F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447521B39699F00BE0FBD /* NSDate+F53OSCTimeTag.m */; };
+		B12447631B39699F00BE0FBD /* NSNumber+F53OSCNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447541B39699F00BE0FBD /* NSNumber+F53OSCNumber.m */; };
+		B12447641B39699F00BE0FBD /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447561B39699F00BE0FBD /* NSString+F53OSCString.m */; };
+		B124476F1B3969AE00BE0FBD /* GamePadAttitudeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447661B3969AE00BE0FBD /* GamePadAttitudeEvent.m */; };
+		B12447701B3969AE00BE0FBD /* GamePadButtonEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447681B3969AE00BE0FBD /* GamePadButtonEvent.m */; };
+		B12447711B3969AE00BE0FBD /* GamePadEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B124476A1B3969AE00BE0FBD /* GamePadEventHandler.m */; };
+		B12447721B3969AE00BE0FBD /* GamePadJoystickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B124476C1B3969AE00BE0FBD /* GamePadJoystickEvent.m */; };
+		B12447731B3969AE00BE0FBD /* OSCGamePadEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B124476E1B3969AE00BE0FBD /* OSCGamePadEventHandler.m */; };
+		B124477E1B3969C900BE0FBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447751B3969C900BE0FBD /* AppDelegate.m */; };
+		B124477F1B3969C900BE0FBD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B12447771B3969C900BE0FBD /* GameScene.m */; };
+		B12447801B3969C900BE0FBD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B12447781B3969C900BE0FBD /* GameScene.sks */; };
+		B12447811B3969C900BE0FBD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B124477A1B3969C900BE0FBD /* GameViewController.m */; };
+		B12447821B3969C900BE0FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B124477B1B3969C900BE0FBD /* Images.xcassets */; };
+		B12447841B3969C900BE0FBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B124477D1B3969C900BE0FBD /* main.m */; };
+		B12447891B3969CF00BE0FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12447851B3969CF00BE0FBD /* LaunchScreen.xib */; };
+		B124478A1B3969CF00BE0FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12447871B3969CF00BE0FBD /* Main.storyboard */; };
+		B124478E1B3969F400BE0FBD /* Pad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B124478B1B3969F400BE0FBD /* Pad.atlas */; };
+		B124478F1B3969F400BE0FBD /* Pad@2x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B124478C1B3969F400BE0FBD /* Pad@2x.atlas */; };
+		B12447901B3969F400BE0FBD /* Pad@3x.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B124478D1B3969F400BE0FBD /* Pad@3x.atlas */; };
+		B15B3D221B3948E600D9DBCF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15B3D211B3948E600D9DBCF /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0167D81AAF63050000F631 /* MobileGamePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileGamePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0168341AAF8D670000F631 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AA0168361AAF8D6C0000F631 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B12447381B39699F00BE0FBD /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSC.h; path = MobileGamePad/F53OSC/F53OSC.h; sourceTree = SOURCE_ROOT; };
+		B12447391B39699F00BE0FBD /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCBundle.h; path = MobileGamePad/F53OSC/F53OSCBundle.h; sourceTree = SOURCE_ROOT; };
+		B124473A1B39699F00BE0FBD /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCBundle.m; path = MobileGamePad/F53OSC/F53OSCBundle.m; sourceTree = SOURCE_ROOT; };
+		B124473B1B39699F00BE0FBD /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCClient.h; path = MobileGamePad/F53OSC/F53OSCClient.h; sourceTree = SOURCE_ROOT; };
+		B124473C1B39699F00BE0FBD /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCClient.m; path = MobileGamePad/F53OSC/F53OSCClient.m; sourceTree = SOURCE_ROOT; };
+		B124473D1B39699F00BE0FBD /* F53OSCFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCFoundationAdditions.h; path = MobileGamePad/F53OSC/F53OSCFoundationAdditions.h; sourceTree = SOURCE_ROOT; };
+		B124473E1B39699F00BE0FBD /* F53OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCMessage.h; path = MobileGamePad/F53OSC/F53OSCMessage.h; sourceTree = SOURCE_ROOT; };
+		B124473F1B39699F00BE0FBD /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCMessage.m; path = MobileGamePad/F53OSC/F53OSCMessage.m; sourceTree = SOURCE_ROOT; };
+		B12447401B39699F00BE0FBD /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCPacket.h; path = MobileGamePad/F53OSC/F53OSCPacket.h; sourceTree = SOURCE_ROOT; };
+		B12447411B39699F00BE0FBD /* F53OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCPacket.m; path = MobileGamePad/F53OSC/F53OSCPacket.m; sourceTree = SOURCE_ROOT; };
+		B12447421B39699F00BE0FBD /* F53OSCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCParser.h; path = MobileGamePad/F53OSC/F53OSCParser.h; sourceTree = SOURCE_ROOT; };
+		B12447431B39699F00BE0FBD /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCParser.m; path = MobileGamePad/F53OSC/F53OSCParser.m; sourceTree = SOURCE_ROOT; };
+		B12447441B39699F00BE0FBD /* F53OSCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCProtocols.h; path = MobileGamePad/F53OSC/F53OSCProtocols.h; sourceTree = SOURCE_ROOT; };
+		B12447451B39699F00BE0FBD /* F53OSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCServer.h; path = MobileGamePad/F53OSC/F53OSCServer.h; sourceTree = SOURCE_ROOT; };
+		B12447461B39699F00BE0FBD /* F53OSCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCServer.m; path = MobileGamePad/F53OSC/F53OSCServer.m; sourceTree = SOURCE_ROOT; };
+		B12447471B39699F00BE0FBD /* F53OSCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCSocket.h; path = MobileGamePad/F53OSC/F53OSCSocket.h; sourceTree = SOURCE_ROOT; };
+		B12447481B39699F00BE0FBD /* F53OSCSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCSocket.m; path = MobileGamePad/F53OSC/F53OSCSocket.m; sourceTree = SOURCE_ROOT; };
+		B12447491B39699F00BE0FBD /* F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F53OSCTimeTag.h; path = MobileGamePad/F53OSC/F53OSCTimeTag.h; sourceTree = SOURCE_ROOT; };
+		B124474A1B39699F00BE0FBD /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = F53OSCTimeTag.m; path = MobileGamePad/F53OSC/F53OSCTimeTag.m; sourceTree = SOURCE_ROOT; };
+		B124474B1B39699F00BE0FBD /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = MobileGamePad/F53OSC/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		B124474C1B39699F00BE0FBD /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = MobileGamePad/F53OSC/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		B124474D1B39699F00BE0FBD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = MobileGamePad/F53OSC/GCDAsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
+		B124474E1B39699F00BE0FBD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = MobileGamePad/F53OSC/GCDAsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
+		B124474F1B39699F00BE0FBD /* NSData+F53OSCBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+F53OSCBlob.h"; path = "MobileGamePad/F53OSC/NSData+F53OSCBlob.h"; sourceTree = SOURCE_ROOT; };
+		B12447501B39699F00BE0FBD /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+F53OSCBlob.m"; path = "MobileGamePad/F53OSC/NSData+F53OSCBlob.m"; sourceTree = SOURCE_ROOT; };
+		B12447511B39699F00BE0FBD /* NSDate+F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+F53OSCTimeTag.h"; path = "MobileGamePad/F53OSC/NSDate+F53OSCTimeTag.h"; sourceTree = SOURCE_ROOT; };
+		B12447521B39699F00BE0FBD /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+F53OSCTimeTag.m"; path = "MobileGamePad/F53OSC/NSDate+F53OSCTimeTag.m"; sourceTree = SOURCE_ROOT; };
+		B12447531B39699F00BE0FBD /* NSNumber+F53OSCNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+F53OSCNumber.h"; path = "MobileGamePad/F53OSC/NSNumber+F53OSCNumber.h"; sourceTree = SOURCE_ROOT; };
+		B12447541B39699F00BE0FBD /* NSNumber+F53OSCNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+F53OSCNumber.m"; path = "MobileGamePad/F53OSC/NSNumber+F53OSCNumber.m"; sourceTree = SOURCE_ROOT; };
+		B12447551B39699F00BE0FBD /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+F53OSCString.h"; path = "MobileGamePad/F53OSC/NSString+F53OSCString.h"; sourceTree = SOURCE_ROOT; };
+		B12447561B39699F00BE0FBD /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+F53OSCString.m"; path = "MobileGamePad/F53OSC/NSString+F53OSCString.m"; sourceTree = SOURCE_ROOT; };
+		B12447651B3969AE00BE0FBD /* GamePadAttitudeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePadAttitudeEvent.h; path = MobileGamePad/GamePadModel/GamePadAttitudeEvent.h; sourceTree = SOURCE_ROOT; };
+		B12447661B3969AE00BE0FBD /* GamePadAttitudeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePadAttitudeEvent.m; path = MobileGamePad/GamePadModel/GamePadAttitudeEvent.m; sourceTree = SOURCE_ROOT; };
+		B12447671B3969AE00BE0FBD /* GamePadButtonEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePadButtonEvent.h; path = MobileGamePad/GamePadModel/GamePadButtonEvent.h; sourceTree = SOURCE_ROOT; };
+		B12447681B3969AE00BE0FBD /* GamePadButtonEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePadButtonEvent.m; path = MobileGamePad/GamePadModel/GamePadButtonEvent.m; sourceTree = SOURCE_ROOT; };
+		B12447691B3969AE00BE0FBD /* GamePadEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePadEventHandler.h; path = MobileGamePad/GamePadModel/GamePadEventHandler.h; sourceTree = SOURCE_ROOT; };
+		B124476A1B3969AE00BE0FBD /* GamePadEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePadEventHandler.m; path = MobileGamePad/GamePadModel/GamePadEventHandler.m; sourceTree = SOURCE_ROOT; };
+		B124476B1B3969AE00BE0FBD /* GamePadJoystickEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePadJoystickEvent.h; path = MobileGamePad/GamePadModel/GamePadJoystickEvent.h; sourceTree = SOURCE_ROOT; };
+		B124476C1B3969AE00BE0FBD /* GamePadJoystickEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePadJoystickEvent.m; path = MobileGamePad/GamePadModel/GamePadJoystickEvent.m; sourceTree = SOURCE_ROOT; };
+		B124476D1B3969AE00BE0FBD /* OSCGamePadEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCGamePadEventHandler.h; path = MobileGamePad/GamePadModel/OSCGamePadEventHandler.h; sourceTree = SOURCE_ROOT; };
+		B124476E1B3969AE00BE0FBD /* OSCGamePadEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCGamePadEventHandler.m; path = MobileGamePad/GamePadModel/OSCGamePadEventHandler.m; sourceTree = SOURCE_ROOT; };
+		B12447741B3969C900BE0FBD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MobileGamePad/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B12447751B3969C900BE0FBD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MobileGamePad/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B12447761B3969C900BE0FBD /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = MobileGamePad/GameScene.h; sourceTree = SOURCE_ROOT; };
+		B12447771B3969C900BE0FBD /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = MobileGamePad/GameScene.m; sourceTree = SOURCE_ROOT; };
+		B12447781B3969C900BE0FBD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = MobileGamePad/GameScene.sks; sourceTree = SOURCE_ROOT; };
+		B12447791B3969C900BE0FBD /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = MobileGamePad/GameViewController.h; sourceTree = SOURCE_ROOT; };
+		B124477A1B3969C900BE0FBD /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = MobileGamePad/GameViewController.m; sourceTree = SOURCE_ROOT; };
+		B124477B1B3969C900BE0FBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MobileGamePad/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		B124477C1B3969C900BE0FBD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobileGamePad/Info.plist; sourceTree = SOURCE_ROOT; };
+		B124477D1B3969C900BE0FBD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MobileGamePad/main.m; sourceTree = SOURCE_ROOT; };
+		B12447861B3969CF00BE0FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MobileGamePad/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		B12447881B3969CF00BE0FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MobileGamePad/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		B124478B1B3969F400BE0FBD /* Pad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Pad.atlas; path = MobileGamePad/Sprites/Pad.atlas; sourceTree = SOURCE_ROOT; };
+		B124478C1B3969F400BE0FBD /* Pad@2x.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = "Pad@2x.atlas"; path = "MobileGamePad/Sprites/Pad@2x.atlas"; sourceTree = SOURCE_ROOT; };
+		B124478D1B3969F400BE0FBD /* Pad@3x.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = "Pad@3x.atlas"; path = "MobileGamePad/Sprites/Pad@3x.atlas"; sourceTree = SOURCE_ROOT; };
+		B15B3D211B3948E600D9DBCF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0167D51AAF63050000F631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15B3D221B3948E600D9DBCF /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0167CF1AAF63050000F631 = {
+			isa = PBXGroup;
+			children = (
+				B15B3D211B3948E600D9DBCF /* SpriteKit.framework */,
+				AA0168361AAF8D6C0000F631 /* CFNetwork.framework */,
+				AA0168341AAF8D670000F631 /* Security.framework */,
+				AA0167DA1AAF63050000F631 /* MobileGamePad */,
+				AA0167D91AAF63050000F631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0167D91AAF63050000F631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0167D81AAF63050000F631 /* MobileGamePad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0167DA1AAF63050000F631 /* MobileGamePad */ = {
+			isa = PBXGroup;
+			children = (
+				B12447851B3969CF00BE0FBD /* LaunchScreen.xib */,
+				B12447871B3969CF00BE0FBD /* Main.storyboard */,
+				B12447741B3969C900BE0FBD /* AppDelegate.h */,
+				B12447751B3969C900BE0FBD /* AppDelegate.m */,
+				B12447761B3969C900BE0FBD /* GameScene.h */,
+				B12447771B3969C900BE0FBD /* GameScene.m */,
+				B12447781B3969C900BE0FBD /* GameScene.sks */,
+				B12447791B3969C900BE0FBD /* GameViewController.h */,
+				B124477A1B3969C900BE0FBD /* GameViewController.m */,
+				B124477B1B3969C900BE0FBD /* Images.xcassets */,
+				B19178141B395CE7003E3F01 /* GamePadModel */,
+				B15B3D231B3949C700D9DBCF /* Atlases */,
+				AA0168381AB0DA600000F631 /* F53OSC */,
+				AA0167DB1AAF63050000F631 /* Supporting Files */,
+			);
+			name = MobileGamePad;
+			path = VrCtrl2;
+			sourceTree = "<group>";
+		};
+		AA0167DB1AAF63050000F631 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B124477C1B3969C900BE0FBD /* Info.plist */,
+				B124477D1B3969C900BE0FBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA0168381AB0DA600000F631 /* F53OSC */ = {
+			isa = PBXGroup;
+			children = (
+				B12447381B39699F00BE0FBD /* F53OSC.h */,
+				B12447391B39699F00BE0FBD /* F53OSCBundle.h */,
+				B124473A1B39699F00BE0FBD /* F53OSCBundle.m */,
+				B124473B1B39699F00BE0FBD /* F53OSCClient.h */,
+				B124473C1B39699F00BE0FBD /* F53OSCClient.m */,
+				B124473D1B39699F00BE0FBD /* F53OSCFoundationAdditions.h */,
+				B124473E1B39699F00BE0FBD /* F53OSCMessage.h */,
+				B124473F1B39699F00BE0FBD /* F53OSCMessage.m */,
+				B12447401B39699F00BE0FBD /* F53OSCPacket.h */,
+				B12447411B39699F00BE0FBD /* F53OSCPacket.m */,
+				B12447421B39699F00BE0FBD /* F53OSCParser.h */,
+				B12447431B39699F00BE0FBD /* F53OSCParser.m */,
+				B12447441B39699F00BE0FBD /* F53OSCProtocols.h */,
+				B12447451B39699F00BE0FBD /* F53OSCServer.h */,
+				B12447461B39699F00BE0FBD /* F53OSCServer.m */,
+				B12447471B39699F00BE0FBD /* F53OSCSocket.h */,
+				B12447481B39699F00BE0FBD /* F53OSCSocket.m */,
+				B12447491B39699F00BE0FBD /* F53OSCTimeTag.h */,
+				B124474A1B39699F00BE0FBD /* F53OSCTimeTag.m */,
+				B124474B1B39699F00BE0FBD /* GCDAsyncSocket.h */,
+				B124474C1B39699F00BE0FBD /* GCDAsyncSocket.m */,
+				B124474D1B39699F00BE0FBD /* GCDAsyncUdpSocket.h */,
+				B124474E1B39699F00BE0FBD /* GCDAsyncUdpSocket.m */,
+				B124474F1B39699F00BE0FBD /* NSData+F53OSCBlob.h */,
+				B12447501B39699F00BE0FBD /* NSData+F53OSCBlob.m */,
+				B12447511B39699F00BE0FBD /* NSDate+F53OSCTimeTag.h */,
+				B12447521B39699F00BE0FBD /* NSDate+F53OSCTimeTag.m */,
+				B12447531B39699F00BE0FBD /* NSNumber+F53OSCNumber.h */,
+				B12447541B39699F00BE0FBD /* NSNumber+F53OSCNumber.m */,
+				B12447551B39699F00BE0FBD /* NSString+F53OSCString.h */,
+				B12447561B39699F00BE0FBD /* NSString+F53OSCString.m */,
+			);
+			name = F53OSC;
+			sourceTree = "<group>";
+		};
+		B15B3D231B3949C700D9DBCF /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+				B124478B1B3969F400BE0FBD /* Pad.atlas */,
+				B124478C1B3969F400BE0FBD /* Pad@2x.atlas */,
+				B124478D1B3969F400BE0FBD /* Pad@3x.atlas */,
+			);
+			name = Atlases;
+			sourceTree = "<group>";
+		};
+		B19178141B395CE7003E3F01 /* GamePadModel */ = {
+			isa = PBXGroup;
+			children = (
+				B12447651B3969AE00BE0FBD /* GamePadAttitudeEvent.h */,
+				B12447661B3969AE00BE0FBD /* GamePadAttitudeEvent.m */,
+				B12447671B3969AE00BE0FBD /* GamePadButtonEvent.h */,
+				B12447681B3969AE00BE0FBD /* GamePadButtonEvent.m */,
+				B12447691B3969AE00BE0FBD /* GamePadEventHandler.h */,
+				B124476A1B3969AE00BE0FBD /* GamePadEventHandler.m */,
+				B124476B1B3969AE00BE0FBD /* GamePadJoystickEvent.h */,
+				B124476C1B3969AE00BE0FBD /* GamePadJoystickEvent.m */,
+				B124476D1B3969AE00BE0FBD /* OSCGamePadEventHandler.h */,
+				B124476E1B3969AE00BE0FBD /* OSCGamePadEventHandler.m */,
+			);
+			name = GamePadModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0167D71AAF63050000F631 /* MobileGamePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0168001AAF63050000F631 /* Build configuration list for PBXNativeTarget "MobileGamePad" */;
+			buildPhases = (
+				AA0167D41AAF63050000F631 /* Sources */,
+				AA0167D51AAF63050000F631 /* Frameworks */,
+				AA0167D61AAF63050000F631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileGamePad;
+			productName = VrCtrl2;
+			productReference = AA0167D81AAF63050000F631 /* MobileGamePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0167D01AAF63050000F631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Happy Finish";
+				TargetAttributes = {
+					AA0167D71AAF63050000F631 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = EPKXDBSKRN;
+					};
+				};
+			};
+			buildConfigurationList = AA0167D31AAF63050000F631 /* Build configuration list for PBXProject "MobileGamePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA0167CF1AAF63050000F631;
+			productRefGroup = AA0167D91AAF63050000F631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0167D71AAF63050000F631 /* MobileGamePad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0167D61AAF63050000F631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12447801B3969C900BE0FBD /* GameScene.sks in Resources */,
+				B12447821B3969C900BE0FBD /* Images.xcassets in Resources */,
+				B12447901B3969F400BE0FBD /* Pad@3x.atlas in Resources */,
+				B124478F1B3969F400BE0FBD /* Pad@2x.atlas in Resources */,
+				B124478E1B3969F400BE0FBD /* Pad.atlas in Resources */,
+				B124478A1B3969CF00BE0FBD /* Main.storyboard in Resources */,
+				B12447891B3969CF00BE0FBD /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0167D41AAF63050000F631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B124475E1B39699F00BE0FBD /* F53OSCTimeTag.m in Sources */,
+				B124475C1B39699F00BE0FBD /* F53OSCServer.m in Sources */,
+				B124475F1B39699F00BE0FBD /* GCDAsyncSocket.m in Sources */,
+				B12447711B3969AE00BE0FBD /* GamePadEventHandler.m in Sources */,
+				B124477F1B3969C900BE0FBD /* GameScene.m in Sources */,
+				B124475D1B39699F00BE0FBD /* F53OSCSocket.m in Sources */,
+				B12447571B39699F00BE0FBD /* F53OSCBundle.m in Sources */,
+				B12447721B3969AE00BE0FBD /* GamePadJoystickEvent.m in Sources */,
+				B12447601B39699F00BE0FBD /* GCDAsyncUdpSocket.m in Sources */,
+				B12447581B39699F00BE0FBD /* F53OSCClient.m in Sources */,
+				B12447621B39699F00BE0FBD /* NSDate+F53OSCTimeTag.m in Sources */,
+				B12447641B39699F00BE0FBD /* NSString+F53OSCString.m in Sources */,
+				B12447591B39699F00BE0FBD /* F53OSCMessage.m in Sources */,
+				B124475A1B39699F00BE0FBD /* F53OSCPacket.m in Sources */,
+				B12447731B3969AE00BE0FBD /* OSCGamePadEventHandler.m in Sources */,
+				B12447611B39699F00BE0FBD /* NSData+F53OSCBlob.m in Sources */,
+				B12447701B3969AE00BE0FBD /* GamePadButtonEvent.m in Sources */,
+				B124475B1B39699F00BE0FBD /* F53OSCParser.m in Sources */,
+				B12447631B39699F00BE0FBD /* NSNumber+F53OSCNumber.m in Sources */,
+				B12447811B3969C900BE0FBD /* GameViewController.m in Sources */,
+				B124476F1B3969AE00BE0FBD /* GamePadAttitudeEvent.m in Sources */,
+				B12447841B3969C900BE0FBD /* main.m in Sources */,
+				B124477E1B3969C900BE0FBD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B12447851B3969CF00BE0FBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12447861B3969CF00BE0FBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B12447871B3969CF00BE0FBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12447881B3969CF00BE0FBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA0167FE1AAF63050000F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0167FF1AAF63050000F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0168011AAF63050000F631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MobileGamePad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MobileGamePad;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0168021AAF63050000F631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MobileGamePad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MobileGamePad;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0167D31AAF63050000F631 /* Build configuration list for PBXProject "MobileGamePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0167FE1AAF63050000F631 /* Debug */,
+				AA0167FF1AAF63050000F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0168001AAF63050000F631 /* Build configuration list for PBXNativeTarget "MobileGamePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0168011AAF63050000F631 /* Debug */,
+				AA0168021AAF63050000F631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0167D01AAF63050000F631 /* Project object */;
+}
